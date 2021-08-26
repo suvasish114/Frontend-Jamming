@@ -1,0 +1,61 @@
+/* color schema */
+
+:root {
+    --black: #1C2833;
+    --white: #ffffff;
+    --gray: #EAECEE;
+    --primary-dark: #171924;
+    --primary-green: #c7f343;
+    --secondary-green: #d1ff52;
+    --secondary-dark: #222531;
+}
+
+
+/* common */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: var(--white);
+    background-color: var(--primary-dark);
+    padding: 5em 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+a:hover {
+    color: var(--primary-green);
+}
+
+span {
+    background-color: var(--secondary-dark);
+    border-left: 7px solid var(--secondary-dark);
+    border-right: 7px solid var(--secondary-dark);
+    border-radius: 5px;
+}
+
+h1,
+h4 {
+    color: var(--primary-green);
+    font-weight: bolder;
+}
+
+.btn {
+    font-weight: bolder;
+    text-transform: uppercase;
+    border: 1px solid var(--primary-green);
+    color: var(--primary-green);
+    border-radius: 1px;
+}
+
+.btn:hover {
+    background-color: var(--primary-green);
+    color: var(--black);
+}
