@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* common */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    padding: 2em 12em;
+    background: linear-gradient(to right, #ffffff00, #ffffff00 60%, #1e1e1e 40%);
+}
+
+
+/* navbar */
+
+nav {
+    background-color: transparent;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-icon {
+    vertical-align: middle;
+    font-size: 2em;
+    float: right;
+    color: white;
+}
+
+
+/* section1 */
+
+.section1 {
+    padding: 4em 0;
+}
+
+.fade {
+    font-weight: bolder;
+    font-size: 20em;
+    color: #1e1e1e10;
+    position: absolute;
+    z-index: -1;
+}
+
+.content {
+    margin-bottom: 5em;
+    z-index: 0;
+}
+
+.title {
+    padding-top: 3em;
+    font-size: 4em;
+}
+
+.subtext {
+    color: #1e1e1e90;
+    width: 500px;
+}
+
+.modle {
+    /*border: 5px solid white;*/
+    float: right;
+    width: 450px;
+    box-shadow: 20px 20px 20px #1e1e1e70;
+}
+
+.rotation {
+    position: absolute;
+    width: 75px;
+    margin: 0;
+    top: 125px;
+    transform: rotate(-90deg);
+}
+
+.texture1 {
+    position: absolute;
+    height: 120px;
+    right: 170px;
+    top: 150px;
+    opacity: 0.5;
+}
+
+.texture2 {
+    opacity: 0.3;
+    padding: 0;
+    margin: 0;
+}

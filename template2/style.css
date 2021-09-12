@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+:root {
+    --primary1: #1e1e1e;
+    --primary1-light: #1e1e1e99;
+    --primary2: ;
+    --primary2-light: ;
+    --black: #000000;
+    --white: #ffffff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* button */
+
+button {
+    padding: 1em 3em;
+    color: var(--white);
+    border: 0;
+    background-color: var(--primary1);
+    margin: 1em 0;
+}
+
+
+/* navbar */
+
+nav {
+    padding: 1em 5em;
+    padding-top: 0;
+}
+
+#logo {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    border: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+    padding: 1em 2em;
+    font-weight: bold;
+}
+
+.active,
+nav ul li:hover {
+    color: var(--white);
+    background-color: var(--black);
+    transition: 0.5s;
+}
+
+
+/* section */
+
+.section1 {
+    height: 60vh;
+}
+
+.center {
+    margin: 7em;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 70%;
+    border: 1px solid red; */
+}
+
+.center p {
+    color: var(--primary1-light);
+    width: 900px;
+}
+
+.center h1 {
+    font-size: 7em;
+    line-height: 0.7em;
+}
+
+.center h2 {
+    font-size: 2em;
+    line-height: 2.5em;
+}
+
+
+/* section2 */
+
+.section2 {
+    height: 30vh;
+    padding: 0 5em;
+    color: var(--white);
+    background-color: var(--primary1);
+}
+
+.section2 ul {
+    float: right;
+}
+
+.section2 ul li {
+    background-color: var(--black);
+    display: inline-block;
+    margin: 0 1em;
+    padding: 1em;
+}
