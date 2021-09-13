@@ -64,6 +64,7 @@ h4 {
     background-color: var(--primary-green);
     color: var(--black);
 }
+
 .template-img {
     border: 2px solid var(--primary-green);
     height: 200px;
